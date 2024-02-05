@@ -28,6 +28,9 @@ def turn_cw():
 
 def clear_drawing():
     tim.clear()
+    tim.penup()
+    tim.home()
+    tim.pendown()
 
 
 screen.listen()
